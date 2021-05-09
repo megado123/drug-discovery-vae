@@ -20,6 +20,7 @@ The exploration can be reproduced by running `Data_Exploration.ipynb` in a jupyt
 ### 2. Baseline Model using Deepchem
 After exploring the data, we leveraged the deepchem library to train an instance of the AspuruGuzikAutoEncoder using our 250K molecule dataset. 
 This work can reproduced by running `DeepChem_CharacterVAE_GPU.ipynb`.
+For capturing metrics, this work can be reproduced running: `Approach1_BaselineModel.ipynb`
 For the best results we recommend using a GPU with your jupyter notebook environment.
 
 ### 3. AspuruGuzikAutoEncoder with KL Annealing
