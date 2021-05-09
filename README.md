@@ -10,28 +10,26 @@ Sources and Inspiration
 -----------------------
 
 The inspiration and sources for this repository come from:
-
-\* [Automatic Chemical Design Using a Data-Driven Continuous Representation of
+- [Automatic Chemical Design Using a Data-Driven Continuous Representation of
 Molecules](https://arxiv.org/abs/1610.02415)
 
-\* <https://github.com/aspuru-guzik-group/chemical_vae>
+- <https://github.com/aspuru-guzik-group/chemical_vae>
 
-\* <https://github.com/deepchem/deepchem>
+- <https://github.com/deepchem/deepchem>
 
-\* <https://github.com/molecularsets/moses>
+- <https://github.com/molecularsets/moses>
 
-\*
-<https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources>
+- <https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources>
 
-\* <https://github.com/wengong-jin/icml18-jtnn>
+- <https://github.com/wengong-jin/icml18-jtnn>
 
-<https://en.wikipedia.org/wiki/ZINC_database>
+- <https://en.wikipedia.org/wiki/ZINC_database>
 
-<http://zinc15.docking.org/>
+- <http://zinc15.docking.org/>
 
-<https://github.com/wengong-jin/icml18-jtnn/tree/master/data/zinc>
+- <https://github.com/wengong-jin/icml18-jtnn/tree/master/data/zinc>
 
-https://github.com/joeym-09/Leveraging-VAE-to-generate-molecules/blob/master/VAE_model_250k.ipynb
+- https://github.com/joeym-09/Leveraging-VAE-to-generate-molecules/blob/master/VAE_model_250k.ipynb
 
 Journey
 -------
@@ -49,7 +47,7 @@ After exploring the data, we leveraged the deepchem library to train an instance
 of the AspuruGuzikAutoEncoder using our 250K molecule dataset. This work can be
 reproduced by running the notebook (inside an Azure ML Workspace):
 
-\- `Approach1_BaselineModel.ipynb`
+`Approach1_BaselineModel.ipynb`
 
 ### 3. AspuruGuzikAutoEncoder with KL Annealing
 
@@ -58,7 +56,7 @@ process and then later incorporate more of the Kullback–Leibler (KL) loss. The
 baseline model provided by deepchem and we wanted to test the impact of turning
 it off. Those results can be reproduced by running
 
-\-Approach2_DisablingCostAnnealing.ipynb.
+- `Approach2_DisablingCostAnnealing.ipynb`
 
 ### 4. Teacher Forcing
 
@@ -78,14 +76,16 @@ the moses library. That implementation can be reproduced by running
 
 The results can be reproduced by running:
 
-\- Approach3_Moses.ipynb
+- `Approach3_Moses.ipynb`
 
 ### 5. SELFIES
 
 Up to this point, our models has used the SMILES representation to represent a
 molecule as a string. We were able to experiment with a different string
 representation of a molecule called SELFIES. Those results can be reproduced by
-running `04_RunOnRemoteClusterSelfies2.ipynb`.
+running 
+
+- `04_RunOnRemoteClusterSelfies2.ipynb`.
 
 Conculsion
 ----------
