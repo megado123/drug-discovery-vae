@@ -85,7 +85,7 @@ molecule as a string. We were able to experiment with a different string
 representation of a molecule called SELFIES. Those results can be reproduced by
 running 
 
-- `04_RunOnRemoteClusterSelfies2.ipynb`.
+- `Approach4_Selfies.ipynb`.
 
 Conculsion
 ----------
