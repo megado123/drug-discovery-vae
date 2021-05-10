@@ -6,6 +6,9 @@ using Variational Autoencoders. Our objective is to measure the ratio of
 syntactically valid molecules that the models can produce to determine which
 adjustments to the baseline model produce the largest improvements.
 
+Our group presentation link can be found below:
+https://youtu.be/zZHGXTrgfrY
+
 Sources and Inspiration
 -----------------------
 
