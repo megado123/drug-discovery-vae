@@ -1,13 +1,18 @@
-CS-598 Deep Learning for Health Care Final Project
+CS-598 Deep Learning for Healthcare Final Project
 ==================================================
 
-As part of our CS-598 Final Project, we are exploring methods for drug discovery
-using Variational Autoencoders. Our objective is to measure the ratio of
+This project explored generative methods for drug discovery
+using Variational Autoencoders. Our initial objective is to measure the ratio of
 syntactically valid molecules that the models can produce to determine which
-adjustments to the baseline model produce the largest improvements.
+adjustments to the baseline model produce the largest improvements. We explore various
+training techniques, model improvements, and hard constraints imposed on the input format
+or latent space to achieve molecular generation that is more valid and chemically rich.
 
-Our group presentation link can be found here:
-https://youtu.be/zZHGXTrgfrY
+
+Our presentation can be found here: https://youtu.be/zZHGXTrgfrY
+
+We discuss our results and ideas for further investigation in [our paper, found here.](https://github.com/megado123/drug-discovery-vae/blob/main/Paper_Drug_Discovery_VAE.pdf)
+
 
 Sources and Inspiration
 -----------------------
@@ -34,7 +39,7 @@ Molecules](https://arxiv.org/abs/1610.02415)
 
 - https://github.com/joeym-09/Leveraging-VAE-to-generate-molecules/blob/master/VAE_model_250k.ipynb
 
-Journey
+Roadmap
 -------
 
 ### 1. Exploring the Data
@@ -89,10 +94,6 @@ representation of a molecule called SELFIES. Those results can be reproduced by
 running 
 
 - `Approach4_Selfies.ipynb`.
-
-### 6. Discussion
-
-We discuss our results and ideas for further investigation in [our paper, found here.](https://github.com/megado123/drug-discovery-vae/blob/main/Paper_Drug_Discovery_VAE.pdf)
 
 Conclusion
 ----------
