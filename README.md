@@ -42,7 +42,7 @@ Journey
 First we explored a dataset of 250K molecules to understand the dataset a little
 better. None of us have a background in chemistry or biology so this was fairly
 essential. The exploration can be reproduced by running `Data_Exploration.ipynb`
-in a jupyter notebook environment.
+in a jupyter notebook environment (originally Google Colab).
 
 ### 2. Baseline Model using Deepchem
 
@@ -89,6 +89,10 @@ representation of a molecule called SELFIES. Those results can be reproduced by
 running 
 
 - `Approach4_Selfies.ipynb`.
+
+### 6. Discussion
+
+We discuss our results and ideas for further investigation in [our paper, found here.](https://github.com/megado123/drug-discovery-vae/blob/main/Paper_Drug_Discovery_VAE.pdf)
 
 Conclusion
 ----------
