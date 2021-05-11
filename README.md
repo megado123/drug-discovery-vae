@@ -49,6 +49,9 @@ better. None of us have a background in chemistry or biology so this was fairly
 essential. The exploration can be reproduced by running `Data_Exploration.ipynb`
 in a jupyter notebook environment (originally Google Colab).
 
+### Note on Notebooks:
+Given the usage of Azure ML in these notebooks, the notebooks will create an image to run the notebook on remotely to control the requirements.  The notebooks listed below will run in an Azure ML Instance in Azure creating  a run of a experiment and log the results.
+
 ### 2. Baseline Model using Deepchem
 
 After exploring the data, we leveraged the deepchem library to train an instance
